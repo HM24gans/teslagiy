@@ -7,7 +7,7 @@ conn.sendMessage(m.chat, {
     index: 1,
     urlButton: {
       displayText: `For you ♡`,
-      url: 'https://www.geocities.ws/mrrwith/Aine-Untukmu.html'
+      url: 'gada bucin bucin:v'
     }
   }],
   footer: 'For You ❤️'
