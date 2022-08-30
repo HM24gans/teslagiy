@@ -11,28 +11,43 @@ mods = [] // Want some help?
 prems = [] // Premium user has unlimited limit
 APIs = { // API Prefix
   // name: 'https://website'
+  amel: 'https://melcanz.com',
+    bx: 'https://bx-hunter.herokuapp.com',
+  dhnjing: 'https://dhnjing.xyz', 
+  hardianto: 'https://hardianto.xyz',
+  jonaz: 'https://jonaz-api-v2.herokuapp.com',
+  neoxr: 'https://neoxr-api.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
+  nzcha: 'http://nzcha-apii.herokuapp.com',
+  bg: 'http://bochil.ddns.net',
+  fdci: 'https://api.fdci.se',
+  rey: 'https://server-api-rey.herokuapp.com',
+  dzx: 'https://api.dhamzxploit.my.id',
+  bsbt: 'https://bsbt-api-rest.herokuapp.com',
   zahir: 'https://zahirr-web.herokuapp.com',
-  bcil: 'https://75.119.137.248:21587',
-  neoxr: 'https://api.neoxr.eu.org/',
-  zeks: 'https://api.zeks.me',
-  gimez: 'https://masgimenz.my.id/',
-  melcanz: 'https://melcanz.com',
+  zeks: 'https://api.zeks.xyz',
+  zekais: 'http://zekais-api.herokuapp.com',
+  hardianto: 'https://hardianto-chan.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com',
-  restapi: 'https://x-restapi.herokuapp.com'
+  erdwepe: 'https://erdwpe-api.herokuapp.com',
+  lolhuman: 'https://api.lolhuman.xyz',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com' 
 }
 APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'apikeyaine',
+  'https://melcanz.com': 'elaina',
+  'https://hardianto.xyz': 'hardianto',
+  'https://api.xteam.xyz': 'Dawnfrostkey',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.neoxr.eu.org/': 'jVEMyB2ITJ',
-  'https://api.zeks.me': 'apikeyaine',
+  'https://bsbt-api-rest.herokuapp.com': 'benniismael',
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://api.zeks.xyz': 'apivinz',
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais',
-  'https://melcanz.com': 'ZZBk7EBb',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://x-restapi.herokuapp.com': 'BETA'
+  'https://zekais-api.herokuapp.com': 'zekais',
+  'https://api.lolhuman.xyz': 'pelitbetsihluwh',
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
