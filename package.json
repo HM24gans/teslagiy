@@ -1,7 +1,7 @@
 {
     "name": "Hudha-Bot",
     "version": "07.06.98",
-    "description": "Customizable WhatsApp Bot",
+    "description":  " WhatsApp Bot",
     "depecrated": false,
     "main": "index.js",
     "directories": {
