@@ -1,5 +1,5 @@
 let handler = async (m, { command, text }) => {
-let jawab = ['Ya', 'Mungkin iya', 'Mungkin', 'Mungkin tidak', 'Tidak', 'Tidak mungkin']
+let jawab = ['Ya', 'Mungkin iya', 'Mungkin', 'Bener Banget', 'Tidak', 'Tidak mungkin']
 let siapa = jawab[Math.floor(Math.random() * jawab.length)]
 m.reply(`
 *Pertanyaan:* ${command} ${text}
