@@ -1,5 +1,5 @@
 #HUDHA BOT
-Error Cari Sendiri:v
+#Edit Owner Di Config.Js
 * My WhatsApp [`Click Here`](https://wa.me/623174295037?text=Assalamualaikum) 
 
 ## Heroku Buildpack
