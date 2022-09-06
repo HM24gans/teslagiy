@@ -7,7 +7,7 @@ conn.sendMessage(m.chat, {
     index: 1,
     urlButton: {
       displayText: `For you ♡`,
-      url: 'gada bucin bucin:v'
+      url: 'https://teknosimple.com/qtGl965'
     }
   }],
   footer: 'For You ❤️'
