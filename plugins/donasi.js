@@ -6,9 +6,9 @@ let handler = async m => m.reply(`
 │ *Script BOT :* 
 │ • https://teknosimple.com/qWF6eqsGKZ
 │ • https://teknosimple.com/j4dzEmXzj1
-│ • https://teknosimple.com/5FeRsrs6aqW
+│ • https://teknosimple.com/qWF6eqsGKZ
 │ *Script Termux Full Ijo Free :* 
-│ • https://teknosimple.com/cQAJ7
+│ • https://teknosimple.com/WxEwnqaa2
 ╰──────────═┅═──────────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
