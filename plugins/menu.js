@@ -162,7 +162,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
     ], m)*/
-    /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
+    let url = `https://k.top4top.io/p_2439ma8l42.jpg`.trim()
     let res = await fetch(url)
     let buffer = await res.buffer()
     let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
@@ -175,7 +175,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Website',
-                                    url: 'https://Ainebot.github.io/'
+                                    url: 'NGK ADA WEBSITE;V'
                                 }
                             }, {
                                 quickReplyButton: {
