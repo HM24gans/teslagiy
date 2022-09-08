@@ -34,8 +34,8 @@ handler.limit = true
 module.exports = handler*/
 
 
-const { MessageType } = require('@adiwajshing/baileys')
-const brainly = require('brainly-scraper')
+let { MessageType } = require('@adiwajshing/baileys')
+let brainly = require('brainly-scraper')
 let handler = async function (m, { text, usedPrefix, command }) {
 	if (!text) throw `uhm.. soalnya mana?\n\ncontoh:\n${usedPrefix + command} apa itu javascript?`
 	brainly(text).then(async res => {
