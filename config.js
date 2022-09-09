@@ -1,10 +1,11 @@
+
 let fs = require('fs') 
 let chalk = require('chalk')
 
 owner = [
   ['6283174295037'],
   ['6283174295037'],
-  ['6283174295037', 'Owner', true]
+  ['6283174295037', 'Owner MH-BOT', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 mods = [] // Want some help?
