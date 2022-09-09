@@ -51,7 +51,7 @@ Hai, %ucapan %name! 👋
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
-  after: `*Create By Moch Hudha*
+  after: `*Create By Moch Hudha XD.*
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
@@ -174,8 +174,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Website',
-                                    url: 'NGK ADA WEBSITE;V'
+                                    displayText: 'SCRIPT BOT',
+                                    url: 'https://teknosimple.com/hugiladxwyE'
                                 }
                             }, {
                                 quickReplyButton: {
