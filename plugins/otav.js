@@ -2,13 +2,16 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, text, usedPrefix }) => {
 setTimeout(() => {
 conn.sendMessage(m.chat, {
-  text: `*...: 📩 JUAL OTAV 📩 :...*
+  text: `*_...: 📩 JUAL OTAV 📩 :..._*
 
-*Jual jasa OTAV (One Time Account Verification)*
-*• Harga sangat terjangkau (paling murah SE-INDONESIA)*
-*• Garansi berlaku apabila OTAV gagal terkirim*
+*_Jual jasa OTAV_*
+*(One Time Account Verification)*
+*_Harga sangat terjangkau_*
+*(paling murah SE-INDONESIA)*
+*_Garansi berlaku apabila OTAV gagal terkirim_*
 
-*Harga: mulai dari 4k-23k (Tergantung negara) 🌐*
+*Harga: mulai dari 4k-23k*
+*(Tergantung negara) 🌐*
 
 *Pembayaran bisa dilakukan via:*
 • *Dana*
@@ -16,11 +19,12 @@ conn.sendMessage(m.chat, {
 *Jangan lupa untuk menyertakan bukti pembayaran*
 
 *⚠️ PERHATIAN! ⚠️*
-*• Harga dibawah merupakan harga OTAV untuk WhatsApp, harga akan berbeda jika anda ingin melakukan OTAV untuk aplikasi lain (misalnya Discord,Telegram,Tinder,OLX,dll)*
+*• Harga dibawah merupakan harga OTAV untuk WhatsApp, harga akan berbeda jika anda ingin melakukan OTAV untuk aplikasi lain*
+*(misalnya Discord,Telegram,Tinder,OLX,dll)*
 
-*LIST NEGARA/COUNTRY CODE:*
+*_LIST NEGARA/COUNTRY CODE:_*
+
 *Total list: 100+*
-
 Algeria (+213) = 9k
 Argentina (+54) = 9k
 Austria (+43) = 12k
@@ -132,8 +136,7 @@ Zimbabwe (+263) = 9k
 *A: Banyak faktor, salahsatu alasan nya adalah IP Address Anda tidak sesuai dengan nomor yg dipesan, jika IP Address Anda telah digunakan untuk verifikasi SMS berkali-kali lalu Anda ingin membeli nomor baru, disarankan untuk mengubah IP Address Anda sesuai dengan negara yg dibeli.*
 
 *Q: Mengapa wajib merubah IP Address setelah sering melakukan SMS di IP yg sama?*
-*A: Karena WhatsApp memiliki fitur penyaringan yg sangat baik, jika Anda membeli nomor menggunakan IP Address yg sama secara berulangkali, WhatsApp akan mendeteksi adanya aktivitas mencurigakan, jadi SMS tidak akan terkirim.*
-*_Jika Berminat Langsung Aja Clik Tautan Di Bawah_*`,
+*A: Karena WhatsApp memiliki fitur penyaringan yg sangat baik, jika Anda membeli nomor menggunakan IP Address yg sama secara berulangkali, WhatsApp akan mendeteksi adanya aktivitas mencurigakan, jadi SMS tidak akan terkirim.*`,
   templateButtons: [{
     index: 1,
     urlButton: {
