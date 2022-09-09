@@ -138,7 +138,7 @@ Zimbabwe (+263) = 9k
     index: 1,
     urlButton: {
       displayText: `Chat Owner Jika Berminat`,
-      url:  'wa.me/6283174295037'
+      url:  'https://wa.me/6283174295037?text=Assalamualaikum%20Bang%20Saya%20Mau%20Beli%20OTAVnya%20'
     }
   }],
   footer: '© Otav2022'
@@ -146,10 +146,10 @@ Zimbabwe (+263) = 9k
 }, 500)
 setTimeout(() => {
 conn.reply(m.chat, '_*Ok Kita Langsung Saja Kelist Nomor Dan Harga😁*_', m)
-}, 500)
+}, 0)
 setTimeout(() => {
 conn.reply(m.chat, '_*Harga?Sudah Pasti Paling Murah*_', m)
-}, 500)
+}, 0)
 setTimeout(() => {
 conn.reply(m.chat, '_*Ready Otav Untuk Verifikasi Whatsapp*_', m)
 }, 0)
