@@ -13,7 +13,7 @@ handler.limit = true
 
 module.exports = handler*/
 
-
+/*
 const Brainly = require('brainly-scraper-v2')
 const brain = new Brainly("id")
 let handler = async function (m, { text, usedPrefix, command }) {
@@ -30,9 +30,9 @@ handler.tags = ['internet']
 handler.command = /^brainly$/i
 handler.limit = true
 
-module.exports = handler
+module.exports = handler*/
 
-/*
+
 const { MessageType } = require('@adiwajshing/baileys')
 const brainly = require('brainly-scraper')
 let handler = async function (m, { text, usedPrefix, command }) {
@@ -52,7 +52,7 @@ handler.tags = ['internet']
 handler.command = /^brainly$/i
 handler.limit = true
 
-module.exports = handler*/
+module.exports = handler
 
 /*
 const brainly = require('brainly-scraper-v2')
