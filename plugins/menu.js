@@ -179,17 +179,22 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi',
+                                    displayText: 'DONASI',
                                     id: '/donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewa',
+                                    displayText: 'SEWA',
                                     id: '/sewa'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'OTAV',
+                                    id: '/otav'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Scbot',
+                                    displayText: 'SCBOT',
                                     id: '/scbot'
                                 }
                             }]
