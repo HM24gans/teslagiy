@@ -189,8 +189,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
-                                    id: '/owner'
+                                    displayText: 'Scbot',
+                                    id: '/scbot'
                                 }
                             }]
                         }
