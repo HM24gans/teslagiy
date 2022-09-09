@@ -14,7 +14,7 @@ let handler = async (m, { conn, text }) => {
   let stiker = await sticker(null, wanted, global.packname, global.author)
   if (stiker) return conn.sendFile(m.chat, stiker, 'sticker.webp', '', m, false, { asSticker: true })
  } catch (e) {
-   m.reply('🗿Nunggu Apaan? ')
+   m.reply('*_Ngk Ada Wanted²_*🗿')
   }
 }
 handler.help = ['wanted']
