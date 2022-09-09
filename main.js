@@ -188,8 +188,8 @@ global.reloadHandler = function (restatConn) {
   }
 
 
-  conn.welcome = '*HALO* @user 👋\n *SELAMAT DATANG DI*  @subject \n\n*Deskripsi* \n\n @desc \n\n *CREATE BY MH TEAM*' 
-  conn.bye = '@user\nGOODBYE 👋'
+  conn.welcome = '*HALO* @user 👋\n *SELAMAT DATANG DI*  @subject \n\n*Deskripsi* \n\n @desc \n\n *CREATE BY MH TEAM* \n\n Bantu Donasi:https://saweria.co/HudhaBot' 
+  conn.bye = '@user\nGOODBYE 👋 *_BEBAN_*'
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
   conn.handler = handler.handler.bind(conn)
