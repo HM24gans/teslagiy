@@ -2,25 +2,25 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, text, usedPrefix }) => {
 setTimeout(() => {
 conn.sendMessage(m.chat, {
-  text: `Nah ini untuk kamu.. 🥰\nKlik tombolnya iya..`,
+  text: `Jangan Lupa\nKlik tombolnya`,
   templateButtons: [{
     index: 1,
     urlButton: {
-      displayText: `For you ♡`,
-      url: 'https://teknosimple.com/qtGl965'
+      displayText: `Ambil Di sini 🗿`,
+      url: 'https://teknosimple.com/oYMOSjtwTnLS'
     }
   }],
-  footer: 'For You ❤️'
+  footer: '*Ni Ambil*🗿'
 })
 }, 15000)
 setTimeout(() => {
-conn.reply(m.chat, 'Ciee.. nungguin nih hehe', m)
+conn.reply(m.chat, '*Jangan Lupa Donasi Ya gyg*🗿', m)
 }, 10000)
 setTimeout(() => {
-conn.reply(m.chat, 'Mau liat nggak kamu? 😆', m)
+conn.reply(m.chat, '*Nih Ku Kasih*🗿', m)
 }, 5000)
 setTimeout(() => {
-conn.reply(m.chat, 'Aku punya kejutan spesial loh untuk mu.. 😅', m)
+conn.reply(m.chat, '*Cari Sc Bot nya kah?* 🗿', m)
 }, 0)
 }
 handler.help = ['forme']
