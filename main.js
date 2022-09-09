@@ -147,7 +147,7 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) await loadDatabase()
   console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) conn.sendMessage(`6283137750223@s.whatsapp.net`, {text: 'BERHASIL Terhubung\nGunakan BOT Dengan Bijak 😉' })
+  if (update.receivedPendingNotifications) conn.sendMessage(`6283174295037@s.whatsapp.net`, {text: 'BERHASIL Terhubung\nGunakan BOT Dengan Bijak 😉' })
 }
 
 
@@ -188,8 +188,8 @@ global.reloadHandler = function (restatConn) {
   }
 
 
-  conn.welcome = 'HALO @user 👋\n SELAMAT DATANG DI  @subject \n\n*Deskripsi* \n\n @desc \n\n *Moga Betah*' 
-  conn.bye = 'YAHHH @user Kenapa? \n KOK KELUAR DARI Group @subject ?\n\nGOODBYE 👋'
+  conn.welcome = '*HALO* @user 👋\n *SELAMAT DATANG DI*  @subject \n\n*Deskripsi* \n\n @desc \n\n *CREATE BY MH TEAM*' 
+  conn.bye = '@user\nGOODBYE 👋'
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
   conn.handler = handler.handler.bind(conn)
