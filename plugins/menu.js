@@ -43,6 +43,10 @@ Hai, %ucapan %name! 👋
 %wit WIT
 *Hari:* %week
 *Tanggal:* %date
+*Uptime:* %uptime (%muptime)
+*_Bot Online Tergantung Donasi Kalian_*
+
+
 
 *Limit:* %limit
 *Level:* %level
@@ -156,13 +160,12 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    /*conn.sendButton(m.chat, text.trim(), '©MH-TEAM|MOCH HUDHA', null, [['Donasi', '.donasi'],['Owner', '.owner']], m)*/
-    /*conn.sendButton(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://aiinne.github.io/', 'Website', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://chat.whatsapp.com/JUKcR6JiHvVAoJlFMV6zh2', 'Grup MH•TEAM CODE', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
-      ['Owner', '/owner']
-    ], m)*/
-    let url = `https://k.top4top.io/p_2439ma8l42.jpg`.trim()
+      ['Otav whatsapp', '/otav']
+    ], m)
+    /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
     let buffer = await res.buffer()
     let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
@@ -174,34 +177,29 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'GRUP MH TEAM CODE',
-                                    url: 'https://chat.whatsapp.com/JUKcR6JiHvVAoJlFMV6zh2'
+                                    displayText: 'Website',
+                                    url: 'https://Ainebot.github.io/'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'DONASI',
+                                    displayText: 'Donasi',
                                     id: '/donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'SEWA',
+                                    displayText: 'Sewa',
                                     id: '/sewa'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'OTAV',
-                                    id: '/otav'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'SCBOT',
-                                    id: '/scbot'
+                                    displayText: 'Owner',
+                                    id: '/owner'
                                 }
                             }]
                         }
                     }
                 }), { userJid: m.chat, quoted: m })
-                conn.relayMessage(m.chat, template.message, { messageId: template.key.id })
+                conn.relayMessage(m.chat, template.message, { messageId: template.key.id })*/
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
