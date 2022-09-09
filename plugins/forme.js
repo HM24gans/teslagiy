@@ -2,11 +2,11 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, text, usedPrefix }) => {
 setTimeout(() => {
 conn.sendMessage(m.chat, {
-  text: `Jangan Lupa\nKlik tombolnya`,
+  text: `_*Jangan Lupa Donasi_*\*_Agar Bot Nya Selalu Aktif_*🗿`,
   templateButtons: [{
     index: 1,
     urlButton: {
-      displayText: `Ambil Di sini 🗿`,
+      displayText: `Scriptnya Disini🗿`,
       url: 'https://teknosimple.com/oYMOSjtwTnLS'
     }
   }],
@@ -14,13 +14,13 @@ conn.sendMessage(m.chat, {
 })
 }, 15000)
 setTimeout(() => {
-conn.reply(m.chat, '*Jangan Lupa Donasi Ya gyg*🗿', m)
+conn.reply(m.chat, '_*Jangan Lupa Donasi Ya Guys*_🗿', m)
 }, 10000)
 setTimeout(() => {
-conn.reply(m.chat, '*Nih Ku Kasih*🗿', m)
+conn.reply(m.chat, '_*Nih Ku Kasih*_🗿', m)
 }, 5000)
 setTimeout(() => {
-conn.reply(m.chat, '*Cari Sc Bot nya kah?* 🗿', m)
+conn.reply(m.chat, '_*Cari Sc Bot nya kah?*_🗿', m)
 }, 0)
 }
 handler.help = ['scbot']
