@@ -8,7 +8,7 @@ let handler  = async (m, { conn, command, args, usedPrefix:p, isOwner, DevMode }
     let cok = `
 *[ LIST CHEAT  ]*
 • Exp\n• Level\n• Limit
-• ${p}cheat exp 10 @628123456789
+• ${p}cheat exp 10 @6283174295037
 `.trim()
 try {
        if (/cheat/i.test(command)) {
