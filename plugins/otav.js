@@ -133,7 +133,7 @@ Zimbabwe (+263) = 9k
 
 *Q: Mengapa wajib merubah IP Address setelah sering melakukan SMS di IP yg sama?*
 *A: Karena WhatsApp memiliki fitur penyaringan yg sangat baik, jika Anda membeli nomor menggunakan IP Address yg sama secara berulangkali, WhatsApp akan mendeteksi adanya aktivitas mencurigakan, jadi SMS tidak akan terkirim.*
-*Jika Berminat Langsung Aja Clik Tautan Di Bawah*`,
+*_Jika Berminat Langsung Aja Clik Tautan Di Bawah_*`,
   templateButtons: [{
     index: 1,
     urlButton: {
@@ -143,13 +143,13 @@ Zimbabwe (+263) = 9k
   }],
   footer: '© Otav2022'
 })
-}, 500)
+}, 50)
 setTimeout(() => {
 conn.reply(m.chat, '_*Ok Kita Langsung Saja Kelist Nomor Dan Harga😁*_', m)
-}, 0)
+}, 30)
 setTimeout(() => {
 conn.reply(m.chat, '_*Harga?Sudah Pasti Paling Murah*_', m)
-}, 0)
+}, 10)
 setTimeout(() => {
 conn.reply(m.chat, '_*Ready Otav Untuk Verifikasi Whatsapp*_', m)
 }, 0)
