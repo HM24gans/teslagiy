@@ -174,8 +174,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'SCRIPT BOT',
-                                    url: 'https://teknosimple.com/hugiladxwyE'
+                                    displayText: 'GRUP MH TEAM CODE',
+                                    url: 'https://chat.whatsapp.com/JUKcR6JiHvVAoJlFMV6zh2'
                                 }
                             }, {
                                 quickReplyButton: {
