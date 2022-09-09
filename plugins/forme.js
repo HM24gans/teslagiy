@@ -10,7 +10,7 @@ conn.sendMessage(m.chat, {
       url: 'https://teknosimple.com/oYMOSjtwTnLS'
     }
   }],
-  footer: '*Ni Ambil*🗿'
+  footer: '©HudhaGanteng🗿'
 })
 }, 15000)
 setTimeout(() => {
@@ -23,8 +23,8 @@ setTimeout(() => {
 conn.reply(m.chat, '*Cari Sc Bot nya kah?* 🗿', m)
 }, 0)
 }
-handler.help = ['forme']
+handler.help = ['scbot']
 handler.tag = ['internet']
-handler.command = /^(forme)$/i
+handler.command = /^(scbot)$/i
 
 module.exports = handler
