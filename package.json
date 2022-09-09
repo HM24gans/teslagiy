@@ -49,7 +49,7 @@
         "awesome-phonenumber": "^2.73.0",
         "axios": "^0.24.0",
         "base64-to-image": "^1.0.2",
-        "brainly-scraper": "^1.0.3",
+        "@defrindr/brainly-scraper": "^1.0.3",
         "brainly-scraper-v2": "^2.0.15",
         "cfonts": "^2.10.1",
         "chalk": "^4.1.2",
