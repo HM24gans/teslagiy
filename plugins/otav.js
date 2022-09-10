@@ -146,13 +146,13 @@ Zimbabwe (+263) = 9k
   }],
   footer: '© Otav2022'
 })
-}, 50)
+}, 1000)
 setTimeout(() => {
 conn.reply(m.chat, '_*Ok Kita Langsung Saja Kelist Nomor Dan Harga😁*_', m)
-}, 30)
+}, 800)
 setTimeout(() => {
 conn.reply(m.chat, '_*Harga?Sudah Pasti Paling Murah*_', m)
-}, 10)
+}, 500)
 setTimeout(() => {
 conn.reply(m.chat, '_*Ready Otav Untuk Verifikasi Whatsapp*_', m)
 }, 0)
