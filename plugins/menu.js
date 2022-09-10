@@ -44,8 +44,8 @@ Hai, %ucapan %name! 👋
 *Hari:* %week
 *Tanggal:* %date
 *Uptime:* %uptime (%muptime)
-*_Bot Online Tergantung Donasi Kalian_*
 
+*_Bot Online Tergantung Donasi Kalian_*
 
 
 *Limit:* %limit
@@ -161,9 +161,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://saweria.co/HudhaBot', 'Donasi Bot', '', '', [
-      ['Donate', '/donasi'],
-      ['Sewa Bot', '/sewa'],
-      ['Otav whatsapp', '/otav']
+      ['DONATE', '/donasi'],
+      ['SEWA BOT', '/sewa'],
+      ['OTAV WHATSAPP', '/otav']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
