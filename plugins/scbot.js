@@ -2,7 +2,7 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, text, usedPrefix }) => {
 setTimeout(() => {
 conn.sendMessage(m.chat, {
-  text: `*_Jangan Lupa Donasi_* \ *_Agar Bot Nya Selalu Aktif_*🗿`,
+  text: `*_Jangan Lupa Donasi_* \ https://saweria.co/HudhaBot`,
   templateButtons: [{
     index: 1,
     urlButton: {
