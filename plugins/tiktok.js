@@ -14,4 +14,3 @@ handler.group = true
 handler.command = /^(tt|tiktok|tik)$/i
 
 module.exports = handler
-
