@@ -45,9 +45,6 @@ Hai, %ucapan %name! 👋
 *Tanggal:* %date
 *Uptime:* %uptime (%muptime)
 
-*_Bot Online Tergantung Donasi Kalian_*
-
-
 *Limit:* %limit
 *Level:* %level
 *XP:* %exp
@@ -55,7 +52,7 @@ Hai, %ucapan %name! 👋
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
-  after: `*Recode BY Hudha x Ikhsan*
+  after: `*Recode By Hudha x Ikhsan*
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
@@ -160,6 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+    /*conn.sendButton(m.chat, text.trim(), 'Made with ♡ by Aine', null, [['Donasi', '.donasi'],['Owner', '.owner']], m)*/
     conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://saweria.co/HudhaBot', 'Donasi Bot', 'https://saweria.com/supportikhsanbot', 'Donasi Bot', [
       ['JASA RUN BOT', '/runbot'],
       ['SEWA BOT', '/sewa'],
