@@ -25,8 +25,8 @@ setTimeout(() => {
 conn.reply(m.chat, 'Ready Jadi Run BOT', m)
 }, 0)
 }
-handler.help = ['forme']
+handler.help = ['runbot']
 handler.tag = ['internet']
-handler.command = /^(forme)$/i
+handler.command = /^(runbot)$/i
 
 module.exports = handler
