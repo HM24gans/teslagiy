@@ -3,8 +3,8 @@ let handler = async m => m.reply(`
 │ • [6285767154127]
 │ • [6285767154127]
 │ • https://saweria.co/HudhaBot
-│ *NOTE*
-│ *KLICK DOANG DONASI KAGA*🗿
+│ • https://saweria.com/supportikhsanbot
+│ *KLICK DOANG DONASI KAGA*
 ╰──────────═┅═──────────
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
