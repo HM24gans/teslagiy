@@ -158,7 +158,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     /*conn.sendButton(m.chat, text.trim(), 'Made with ♡ by Aine', null, [['Donasi', '.donasi'],['Owner', '.owner']], m)*/
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://saweria.co/HudhaBot', 'Donasi Bot', 'https://saweria.com/supportikhsanbot', 'Donasi Bot', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://saweria.co/HudhaBot', 'Donasi Bot', '', '', [
       ['JASA RUN BOT', '/runbot'],
       ['SEWA BOT', '/sewa'],
       ['OTAV WHATSAPP', '/otav']
