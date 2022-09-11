@@ -19,10 +19,13 @@ conn.sendMessage(m.chat, {
 })
 }, 1000)
 setTimeout(() => {
-conn.reply(m.chat, 'Harga? Sudah Pasti murah', m)
+conn.reply(m.chat, '*_Harga? Sudah Pasti Paling murah_*', m)
+}, 800)
+setTimeout(() => {
+conn.reply(m.chat, '*_BOT ONLINE 24 JAM_*', m)
 }, 500)
 setTimeout(() => {
-conn.reply(m.chat, 'Ready Jadi Run BOT', m)
+conn.reply(m.chat, '*_Ready Jasa Run BOT_*', m)
 }, 0)
 }
 handler.help = ['runbot']
