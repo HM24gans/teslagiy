@@ -55,7 +55,7 @@ Hai, %ucapan %name! 👋
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
-  after: `*Create By Moch Hudha XD.*
+  after: `*Recode BY Hudha x Ikhsan*
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
@@ -160,8 +160,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://saweria.co/HudhaBot', 'Donasi Bot', '', '', [
-      ['DONATE', '/donasi'],
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://saweria.co/HudhaBot', 'Donasi Bot', 'https://saweria.com/supportikhsanbot', 'Donasi Bot', [
+      ['JASA RUN BOT', '/runbot'],
       ['SEWA BOT', '/sewa'],
       ['OTAV WHATSAPP', '/otav']
     ], m)
