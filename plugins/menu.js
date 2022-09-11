@@ -160,7 +160,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     /*conn.sendButton(m.chat, text.trim(), 'Made with ♡ by Aine', null, [['Donasi', '.donasi'],['Owner', '.owner']], m)*/
     conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://saweria.co/HudhaBot', 'Donasi Bot', '', '', [
       ['JASA RUN BOT', '/runbot'],
-      ['SEWA BOT', '/sewa'],
+      ['DONATE', '/donasi'],
       ['OTAV WHATSAPP', '/otav']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
