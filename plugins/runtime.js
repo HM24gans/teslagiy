@@ -4,6 +4,8 @@ let handler = async (m, { conn }) => {
 
 m.reply(`
 ┌─〔 R U N T I M E 〕
+├ Suport BOT Agar Terus ON
+├ saweria.co/HudhaBot
 ├ Bot Aktif Selama ${uptime}
 └────
     `)
