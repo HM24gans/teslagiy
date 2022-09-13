@@ -32,10 +32,10 @@ module.exports = {
                 if (typeof user !== 'object') db.data.users[m.sender] = {}
                 if (user) {
                     if (!isNumber(user.exp)) user.exp = 0
-                    if (!isNumber(user.limit)) user.limit = 1000
+                    if (!isNumber(user.limit)) user.limit = 10
                     if (!isNumber(user.joinlimit)) user.joinlimit = 1
-                    if (!isNumber(user.money)) user.money = 100000
-                    if (!isNumber(user.bank)) user.bank = 100000
+                    if (!isNumber(user.money)) user.money = 10
+                    if (!isNumber(user.bank)) user.bank = 10
                     if (!isNumber(user.lastclaim)) user.lastclaim = 0
                     if (!('registered' in user)) user.registered = false
                     if (!user.registered) {
@@ -284,12 +284,12 @@ module.exports = {
                     if (!isNumber(user.lastlatih)) user.lastlatih = 0
                 } else db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 1000,
+                    limit: 10,
                     joinlimit: 1,
                     spammer: 0,
-                    limitspam: 0,
-                    money: 10000,
-                    bank: 10000,
+                    limitspam: 1,
+                    money: 10,
+                    bank: 10,
                     health: 100,
                     tiketcoin: 0,
                     healtmonster: 100,
