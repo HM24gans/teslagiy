@@ -15,8 +15,8 @@ const sections = [ {
         {title: `Script`, rowId: `#sc `},//, description: ``},
         {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
         {title: `Speed`, rowId: `#speed `},//, description: ``},
-        {title: `OTAV (One Time Account Verification)`, rowId: `#otav `},//, description: ``},
-        {title: `Creator`, rowId: `#owner `},//, description: ``},
+        {title: `OTAV (One Time Account Verification)`, rowId: `otav `},//, description: ``},
+        {title: `Creator`, rowId: `owner `},//, description: ``},
         ]
  } ]
 
