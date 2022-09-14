@@ -32,4 +32,6 @@ handler.help = ['runbot']
 handler.tag = ['internet']
 handler.command = /^(runbot)$/i
 
+handler.limit = true
+
 module.exports = handler
