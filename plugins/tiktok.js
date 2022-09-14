@@ -11,6 +11,7 @@ http://saweria.co/HudhaBot`, m)
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.limit = true
+handler.premium = true
 handler.group = true
 
 handler.command = /^(tt|tiktok|tik)$/i
