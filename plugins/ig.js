@@ -13,6 +13,7 @@ handler.help = ['ig'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(ig|igdl|instagram)$/i
 handler.limit = true
+handler.premium = true
 handler.group = true
 
 module.exports = handler
