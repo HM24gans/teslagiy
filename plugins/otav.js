@@ -161,4 +161,6 @@ handler.help = ['otav']
 handler.tag = ['internet']
 handler.command = /^(otav)$/i
 
+handler.limit = true
+
 module.exports = handler
